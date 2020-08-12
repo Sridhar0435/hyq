@@ -549,7 +549,8 @@ ol {
 .single-slider-item {
   padding: 270px 0;
   text-align: center;
-  height: 100%;
+  /* height: 100%; */
+  height: 100vh;
 }
 
 .single-slider-item h1 {
@@ -2371,4 +2372,13 @@ ol {
   font-size: 30px;
   font-weight: 900;
   color: #222;
+}
+.owl-next {
+  display: block !important;
+}
+.hero-slider {
+  height: 100vh !important;
+}
+.hero-items .owl-dots {
+  bottom: 40px;
 }
